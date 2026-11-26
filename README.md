@@ -24,6 +24,17 @@ Ongoing (private until submission): quantum-safe conformally calibrated control 
 | [cloudmirror](https://github.com/Subhamsharm25/cloudmirror) | Multi-cloud reliability | Quorum replication gateway across AWS S3, Azure Blob and GCS — integrity checks, self-repair, automated outage drills; Terraform + Helm + k3d + dual CI (Jenkins & GitHub Actions) |
 | [tf-guardrails](https://github.com/Subhamsharm25/tf-guardrails) | Platform security | Policy gate for Terraform PRs on AWS/Azure/GCP — blocks public storage, open SSH/RDP, unencrypted DBs; SARIF output, expiring waivers, composite GitHub Action |
 
+## 📅 Daily builds
+
+Track: **A** DevOps/cloud · **B** research study · **C** core systems.
+
+| Date | Repo | Track | Problem |
+|---|---|---|---|
+| 2026-11-26 | [retry-storm-lab](https://github.com/Subhamsharm25/retry-storm-lab) | B | When do client retries turn a short server brownout into an outage that never ends? Backoff, jitter, retry budgets and LIFO shedding compared in simulation |
+| 2026-11-25 | [teampulse](https://github.com/Subhamsharm25/teampulse) | app | Startup hours and attendance dashboard (FastAPI + SQLite, Docker, k8s) |
+| 2026-11-24 | [tf-guardrails](https://github.com/Subhamsharm25/tf-guardrails) | A | Policy gate for Terraform PRs on AWS/Azure/GCP |
+| 2026-11-23 | [cloudmirror](https://github.com/Subhamsharm25/cloudmirror) | A | Multi-cloud backup/replication with quorums, integrity checks and self-repair |
+
 
 ## 🧰 Stack
 
